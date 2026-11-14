@@ -1,7 +1,7 @@
 ---
 name: canvas
 description: >-
-  Build an app with the person on their usecanvas.io (agent.cloud) canvas: start one from their
+  Build an app with the person on their agent.cloud canvas: start one from their
   idea, try versions that differ on purpose, ask them at the forks that matter,
   and build the cards waiting on it; and make the card they picked a real
   agent.cloud app. Use when they ask to build an app on agent.cloud, open their
@@ -47,7 +47,7 @@ When they have the version they want, they choose Pick this one on it, and you m
 
 1. **Sign in first.** If the canvas's tools aren't loaded, or a call says to sign in, start the canvas server's sign-in (in Claude Code, its authenticate tool), give the person the link, and ask them to press Allow and tell you when it's done. Never start builders before the tools are loaded: they can't do anything without them.
 2. **Count the cards.** Call waiting_cards. It says how many cards are waiting, without taking any.
-3. **One builder per card, all at once.** In Claude Code, start exactly that many `canvas-v2:canvas-builder` subagents in one message, each with the prompt "Build one card from my agent.cloud canvas." They work at low effort, so each card takes about a minute.
+3. **One builder per card, all at once.** In Claude Code, start exactly that many `canvas-v1:canvas-builder` subagents in one message, each with the prompt "Build one card from my agent.cloud canvas." They work at low effort, so each card takes about a minute.
 4. **Check again.** When they've all reported, call waiting_cards again: a change or another canvas may be waiting. Stop when it says nothing is waiting, and tell the person which cards went live and which, if any, still have failing checks.
 
 Where subagents aren't available (Codex), take the cards yourself: next_card, then write_files until every check passes, then finish, and repeat until next_card says nothing is waiting. Keep each card quick: write the files straight away.

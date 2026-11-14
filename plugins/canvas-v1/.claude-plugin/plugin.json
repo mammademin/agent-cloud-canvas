@@ -1,7 +1,7 @@
 {
-  "name": "canvas-v2",
+  "name": "canvas-v1",
   "version": "0.1.3",
-  "description": "Canvas v2 (test), for canvas-v2.ac0.app: start with no account. Your own Claude or Codex builds your app with you on your agent.cloud canvas: it tries versions that differ on purpose, asks you at the forks that matter, and shows each one live.",
+  "description": "Your own Claude or Codex builds your app with you on your agent.cloud canvas: it tries versions that differ on purpose, asks you at the forks that matter, and shows each one live.",
   "author": {
     "name": "agent.cloud"
   },
@@ -14,7 +14,7 @@
     "prototype"
   ],
   "license": "Apache-2.0",
-  "displayName": "Canvas v2 (test)",
+  "displayName": "agent.cloud canvas (v1)",
   "supportUrl": "https://agent.cloud/support",
   "privacyPolicyUrl": "https://agent.cloud/privacy",
   "termsOfServiceUrl": "https://agent.cloud/terms",

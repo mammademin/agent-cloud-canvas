@@ -1,13 +1,18 @@
 ---
 name: canvas
 description: >-
-  Build an app with the person on their agent.cloud canvas: start one from their
+  Put the person's own app, running on this machine, on their canvas beside the chat
+  (/canvas, "show this on canvas", "put my app on canvas", "canvas it"): find this
+  project's running app or start it, then show_local, without asking which port. Also
+  build an app with the person on their usecanvas.io (agent.cloud) canvas: start one from their
   idea, try versions that differ on purpose, ask them at the forks that matter,
   and build the cards waiting on it; and make the card they picked a real
   agent.cloud app. Use when they ask to build an app on agent.cloud, open their
   agent.cloud canvas, bring an app idea or a change to one, say they'd like to make an app on their canvas, ask to build their canvas or its
   cards, or ask to make their canvas pick real.
 ---
+
+**Their own app (/canvas, "show this on canvas", "canvas it").** Run /canvas's steps: find this project's running app (the listening port whose process works in this folder, preferring a web page and the most recent) or start its dev command, call show_local, start the helper (and door) as its answer says, and open the canvas beside the chat. Ask only if there's no app to find or start.
 
 The canvas (its tools are waiting_cards, next_card, write_files, finish and picked_card) shows a few takes on one idea; the person picks one and makes it real. The cards are built by you, on the person's own plan; the canvas never calls a model for them.
 

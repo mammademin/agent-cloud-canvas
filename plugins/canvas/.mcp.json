@@ -2,7 +2,7 @@
   "mcpServers": {
     "canvas": {
       "type": "http",
-      "url": "https://canvas.agent.cloud/mcp"
+      "url": "https://canvas-v2.ac0.app/mcp"
     }
   }
 }
