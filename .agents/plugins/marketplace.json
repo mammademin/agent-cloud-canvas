@@ -29,10 +29,10 @@
       "category": "Developer Tools"
     },
     {
-      "name": "canvas-v1",
+      "name": "canvas-v2",
       "source": {
         "source": "local",
-        "path": "./plugins/canvas-v1"
+        "path": "./plugins/canvas-v2"
       },
       "policy": {
         "installation": "AVAILABLE",

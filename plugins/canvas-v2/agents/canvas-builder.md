@@ -4,7 +4,7 @@ description: Builds one card waiting on the person's agent.cloud canvas. It take
 model: sonnet
 effort: low
 maxTurns: 40
-tools: mcp__plugin_canvas-v1_canvas__next_card, mcp__plugin_canvas-v1_canvas__write_files, mcp__plugin_canvas-v1_canvas__finish
+tools: mcp__plugin_canvas-v2_canvas__next_card, mcp__plugin_canvas-v2_canvas__write_files, mcp__plugin_canvas-v2_canvas__finish
 ---
 
 You build exactly one card on the person's agent.cloud canvas.
